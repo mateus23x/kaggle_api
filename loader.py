@@ -1,6 +1,6 @@
 
 """
-    This module provides an OOP abstraction to facilitate data loading and focusing on what matters.
+    This module provides an OOP abstraction to make loading data easier and focusing on what matters.
 """
 
 # built-in
