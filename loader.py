@@ -237,7 +237,11 @@ def usage():
     url = "https://www.kaggle.com/datasets/gpiosenka/tree-nuts-image-classification"
     file = "tree nuts.csv"
     print(f"\nLoading kaggle dataset:\nURL: '{url}'\nFile: '{file}'")
-    data = Data(kaggle_url=url, kaggle_file=file, download_path=download_path)
+    data = Data(
+        kaggle_url=url,
+        kaggle_file=file,
+        download_path=download_path
+    )
     print(data.head())
 
     # kaggle competition dataset loading example
