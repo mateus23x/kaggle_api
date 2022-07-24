@@ -3,6 +3,9 @@
     This module provides an OOP abstraction to make loading data easier and focusing on what matters.
 """
 
+# modifying the behaviour of 'import *'
+__all__ = ["Data"]
+
 # built-in
 import os
 import pathlib
